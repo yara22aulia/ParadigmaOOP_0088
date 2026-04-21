@@ -16,13 +16,12 @@ public:
 };
 
 int main
-()
-{
+(
+
+){
     Mahasiswa mhs1;
     mhs1.nim = 111;
     mhs1.nama = "Joko Susilo";
     mhs1.nilai = 75.5;
     mhs1.printData();
-
-    return 0;
 }
